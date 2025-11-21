@@ -16,7 +16,6 @@ import org.springframework.context.annotation.Bean;
 
 import java.util.*;
 
-
 @SpringBootApplication
 @EnableFeignClients
 public class BillingServiceApplication {
@@ -51,7 +50,6 @@ public class BillingServiceApplication {
 
                 });
             });
-
         };
     }
 }
